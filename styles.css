@@ -1,0 +1,365 @@
+/* Ajout de styles pour les petits écrans */
+@media (max-width: 768px) {
+    #crypto-table {
+        font-size: 0.8em; /* Réduire la taille de la police */
+        overflow-x: auto; /* Ajouter un défilement horizontal */
+        display: block; /* Convertir en bloc pour permettre le défilement */
+    }
+
+    #crypto-table th, #crypto-table td {
+        padding: 4px 8px; /* Réduire l'espacement */
+    }
+
+    /* Masquer les titres complets et afficher les abréviations */
+    #crypto-table .full-title {
+        display: none;
+    }
+
+    #crypto-table .abbrev-title {
+        display: inline;
+    }
+}
+
+/* Styles par défaut pour les grands écrans */
+#crypto-table .full-title {
+    display: inline;
+}
+
+#crypto-table .abbrev-title {
+    display: none;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+    background-color: #444;
+}
+
+input, select, button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Augmente la taille du bouton de 5% lorsqu'il est survolé */
+}
+
+/* Styles pour le popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 800px;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#crypto-chart {
+    width: 100%;
+    height: 100px; /* Ajustez cette valeur selon vos besoins */
+    margin-top: 20px;
+}
+
+
+/* Style pour le bouton "Détails" */
+button.details {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.details:hover {
+    background-color: #0056b3;
+}
+
+
+/* Styles pour le modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2; /* Augmenter le z-index pour qu'il apparaisse au-dessus des autres éléments */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #333;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #555;
+    width: 20%;
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+.modal-content.success {
+    border-color: #28a745; /* Vert pour le succès */
+    color: #09df6d;
+}
+
+.modal-content.error {
+    border-color: #dc3545; /* Rouge pour l'erreur */
+    color:#dc3545;
+}
+
+.close {
+    z-index: 10;
+    color: #ff0000; /* Couleur de l'icône */
+    float: right;
+    font-size: 24px; /* Taille de l'icône */
+    background-color: #444; /* Fond gris pour la croix */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute; /* Positionnement absolu pour le positionner en haut à droite */
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 0 5px #000; /* Ajout d'une ombre pour la rendre plus visible */
+}
+
+.close:hover,
+.close:focus {
+    color: #e0e0e0;
+    background-color: #333;
+}
+
+.positive {
+    color: #28a745; /* Vert */
+}
+
+.negative {
+    color: #dc3545; /* Rouge */
+}
+
+.neutral {
+    color: #e0e0e0; /* Gris par défaut */
+}
+
+
+#total-portfolio-chart-container {
+    width: 100%;
+    height: 30em; /* ou toute autre hauteur que vous souhaitez */
+    margin: 0 auto;
+    position: relative; /* important pour que Chart.js positionne correctement le canvas */
+}
+
+/* Styles pour la section d'introduction */
+#intro-section {
+    background-color: #2a2a2a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#intro-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#intro-section p {
+    font-size: 1.2em;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #2a2a2a;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #007BFF;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* CSS pour le conteneur des boutons */
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CSS pour les boutons à l'intérieur du conteneur */
+.buttonContainer button {
+    margin-right: 5px; /* Ajoute un espace à droite de chaque bouton */
+}
+
+/* Supprimez la marge du dernier bouton pour éviter un espace supplémentaire à droite */
+.buttonContainer button:last-child {
+    margin-right: 0;
+}
+
+.del_red{
+    color: #dc3545;
+}
+
+/* Style pour le modal editModal */
+#editModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2; /* pour s'assurer qu'il apparaît au-dessus des autres éléments */
+}
+
+#editModal > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 400px; /* ajustez selon vos besoins */
+}
+
+#editModal input, #editModal select {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#editModal button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#editModal button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+/* Container pour les sections de gestion des cryptos et d'encodage des transactions */
+.container_encodage {
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.toggle-accordion {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer; /* Pour indiquer qu'il s'agit d'un élément cliquable */
+}
+
+#crypto-management-section{
+    width: 40%; 
+    box-sizing: border-box;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#transaction-section {
+    width: 40%; 
+    box-sizing: border-box;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px; /* Ajoutez des marges pour plus d'espace entre les div */
+}

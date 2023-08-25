@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gestionnaire de Portefeuille Crypto pour suivre vos investissements en cryptomonnaies.">
+    <title>Gestionnaire de Portefeuille Crypto</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Remplacez "path_to_your_favicon.ico" par le chemin de votre favicon -->
+
+</head>
+<body>
+    <div id="intro-section">
+        <h1>Bienvenue sur le Gestionnaire de Portefeuille Crypto</h1>
+        <p>Suivez vos investissements en cryptomonnaies en temps réel et gérez vos transactions facilement.</p>
+    </div>
+    <div class="container_encodage">
+        <i class="fas fa-chevron-down toggle-accordion"></i>
+        <!-- Section de gestion des cryptos -->
+        <div id="crypto-management-section" aria-label="Section de gestion des cryptos">
+            <h2>Ajout cryptos</h2>
+            <input type="text" id="crypto-id-add" placeholder="ID de la crypto" aria-label="ID de la crypto">
+            <input type="text" id="crypto-name-add" placeholder="Nom de la crypto" aria-label="Nom de la crypto">
+            <button id="add-crypto" aria-label="Ajouter une crypto">Ajouter</button>
+        </div>
+
+        <!-- Section d'encodage des transactions -->
+        <div id="transaction-section" aria-label="Section d'encodage des transactions">
+            <h2>Ajout Transaction</h2>
+            <select id="crypto-list" aria-label="Liste des cryptomonnaies"></select>
+            <input type="number" id="crypto-quantity" placeholder="Quantité" aria-label="Quantité de cryptomonnaie">
+            <input type="number" id="amount" placeholder="Investissement en $" aria-label="Montant de l'investissement en dollars">
+            <label for="transaction-type">Type de transaction:</label>
+            <select id="transaction-type" aria-label="Type de transaction">
+                <option value="achat">Achat</option>
+                <option value="vente">Vente</option>
+            </select>
+            <input type="date" id="transaction-date" aria-label="Date de la transaction">
+            <button id="submit-transaction" aria-label="Soumettre la transaction">Soumettre</button>
+        </div>
+    </div>
+    <!-- Section d'affichage des cryptos -->
+    <table id="crypto-table" aria-label="Tableau des cryptomonnaies">
+        <!-- Entêtes du tableau -->
+        <thead>
+            <tr>
+                <th data-sort="token">Token</th>
+                <th data-sort="supply">Supply</th>
+                <th data-sort="invest"><span class="full-title">Investissement</span><span class="abbrev-title">Inv.</span></th>
+                <th data-sort="costPrice"><span class="full-title">Prix de reviens en $</span><span class="abbrev-title">Prix $</span></th>
+                <th data-sort="currentPrice"><span class="full-title">Prix du jour</span><span class="abbrev-title">Prix Jour</span></th>
+                <th data-sort="plDollar"><span class="full-title">P&L en $</span><span class="abbrev-title">P&L $</span></th>
+                <th data-sort="plPercent"><span class="full-title">P&L en %</span><span class="abbrev-title">P&L %</span></th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <!-- Les lignes seront générées dynamiquement -->
+        </tbody>
+    </table>
+
+
+
+    <!-- Popup pour l'historique des transactions -->
+    <div id="transaction-popup" class="popup" aria-label="Popup pour l'historique des transactions">
+        <div class="popup-content">
+            <span class="close-popup" aria-label="Fermer le popup">&times;</span>
+            <h2>Historique des transactions pour <span id="popup-crypto-name"></span></h2>
+            <table id="transaction-history-table" aria-label="Tableau de l'historique des transactions">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Investissement</th>
+                        <th>Supply</th>
+                        <th>Prix d'achat</th>
+                        <th>Type</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Les lignes seront générées dynamiquement -->
+                </tbody>
+            </table>
+          <!--   <div id="crypto-chart-container" aria-label="Conteneur du Graphique de la cryptomonnaie">-->
+                <canvas id="crypto-chart" aria-label="Graphique de la cryptomonnaie"></canvas>
+          <!--   </div>-->
+
+        </div>
+
+        <div id="editModal">
+            <div >
+                Date: <input type="date" id="editDate"><br><br>
+                Investissement: <input type="number" id="editInvest" placeholder="Montant investi"><br><br>
+                Quantité: <input type="number" id="editSupply" placeholder="Quantité de crypto"><br><br>
+                Prix $: <input disabled type="number" id="editprix" placeholder="Prix"><br><br>
+                Type: <select id="editType">
+                        <option value="achat">Achat</option>
+                        <option value="vente">Vente</option>
+                      </select><br><br>
+                <button id="saveEdit">Enregistrer</button>
+                <button id="cancelEdit">Annuler</button>
+            </div>
+        </div>
+        
+
+        
+    </div>
+
+    <div id="total-portfolio-chart-container" aria-label="Conteneur du graphique du portefeuille total">
+        <canvas id="total-portfolio-chart" aria-label="Graphique du portefeuille total"></canvas>
+    </div>
+    
+
+    <div id="confirmationModal" class="modal" aria-label="Modal de confirmation">
+        <div class="modal-content">
+            <span class="close" aria-label="Fermer le modal"><i class="fas fa-times"></i></span>
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2023 Gestionnaire de Portefeuille Crypto. Tous droits réservés.</p>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

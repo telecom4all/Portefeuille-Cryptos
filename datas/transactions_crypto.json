@@ -1,0 +1,97 @@
+[
+    {
+        "token": "BITCOIN",
+        "tokenId": "bitcoin",
+        "transactions": [
+            {
+                "date": "05\/04\/2023",
+                "Invest": 18.44,
+                "supply": 0.00114779,
+                "purchasePrice": 16065,
+                "transactionType": "achat"
+            },
+            {
+                "date": "02\/05\/2023",
+                "Invest": 15,
+                "supply": 0.001,
+                "purchasePrice": 15000,
+                "transactionType": "achat"
+            }
+        ]
+    },
+    {
+        "token": "ETHEREUM",
+        "tokenId": "ethereum",
+        "transactions": [
+            {
+                "date": "25\/11\/2022",
+                "Invest": 90.11,
+                "supply": 0.0516391823243307,
+                "purchasePrice": 1744,
+                "transactionType": "achat"
+            },
+            {
+                "date": "25\/12\/2022",
+                "Invest": 40,
+                "supply": 0.03738,
+                "purchasePrice": 1070,
+                "transactionType": "achat"
+            },
+            {
+                "date": "04\/04\/2023",
+                "Invest": 3.71,
+                "supply": 0.0022,
+                "purchasePrice": 1686,
+                "transactionType": "achat"
+            },
+            {
+                "date": "18\/08\/2023",
+                "Invest": 1,
+                "supply": 1,
+                "purchasePrice": 1,
+                "transactionType": "achat"
+            }
+        ]
+    },
+    {
+        "token": "XRP",
+        "tokenId": "ripple",
+        "transactions": [
+            {
+                "date": "17\/08\/2023",
+                "Invest": 1,
+                "supply": 1,
+                "purchasePrice": 1,
+                "transactionType": "achat"
+            },
+            {
+                "date": "23\/08\/2023",
+                "Invest": 2,
+                "supply": 2,
+                "purchasePrice": 1,
+                "transactionType": "achat"
+            },
+            {
+                "date": "03\/08\/2023",
+                "Invest": 2,
+                "supply": 1,
+                "purchasePrice": 2,
+                "transactionType": "achat"
+            },
+            {
+                "date": "05\/08\/2023",
+                "Invest": 1,
+                "supply": 1,
+                "purchasePrice": 1,
+                "transactionType": "vente"
+            },
+            {
+                "date": "26\/07\/2022",
+                "Invest": 1,
+                "supply": 1,
+                "purchasePrice": 1,
+                "transactionType": "vente"
+            }
+        ]
+    }
+]

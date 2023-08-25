@@ -1,0 +1,14 @@
+[
+    {
+        "id": "bitcoin",
+        "name": "BITCOIN"
+    },
+    {
+        "id": "ethereum",
+        "name": "ETHEREUM"
+    },
+    {
+        "id": "ripple",
+        "name": "XRP"
+    }
+]
