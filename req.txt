@@ -1,0 +1,901 @@
+fetch("https://www.leforem.be/recherche-offres/offre-detail/362270", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "cookie": "JSESWOFP=.iiscfe01; JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; ADCNode=rs3|ZOzL8; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true",
+    "Referer": "https://www.leforem.be/recherche-offres/resultat-recherche-offre",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/css/forem-common-style.css", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/app.js?x=99ed584fff8eb98467fb", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/pageScripts/dashlane-webauthn-page-script.js", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/pageScripts/dashlane-tiresias-page-script.js", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/fonts/Poppins-Regular.ttf", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/assets/forem-common-style/css/forem-common-style.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site"
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/PGE_NEW/header-v2.html", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/PGE_NEW/footer-v2.html", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/config/config.json", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESWOFP=.iiscfe01; JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/images/Forem-favicon.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-dependencies.min.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-base.min.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site.min.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/images/FOREM-Logo.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/images/Icon-external-link.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/images/envelope-light.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/header/search-light.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/icons/Icon-user.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/icons/Icon-home.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/icons/Icon-login.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/icons/Icon-user-settings.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/tarteaucitron/tarteaucitron.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "if-modified-since": "Tue, 01 Aug 2023 13:55:45 GMT",
+    "if-none-match": "\"0x8DB929700C4A363\"",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/fonts/Poppins-Medium.ttf", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/assets/forem-common-style/css/forem-common-style.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/FOREM-Logo.svg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/footer/Logo%20Wallonie.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/footer/logo_FEDER_FSE-WAL.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/etc.clientlibs/leforem/clientlibs/clientlib-site/resources/images/footer/Synerjob.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/api/telemetry/getTelemetryConfig", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "authorization": "Bearer undefined",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESWOFP=.iiscfe01; JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://raw.githubusercontent.com/phantom-labs/blocklist/master/blocklist.yaml", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site"
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/fonts/Poppins-SemiBold.ttf", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/assets/forem-common-style/css/forem-common-style.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/api/Data/getConfig", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "authorization": "Bearer undefined",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "request-id": "|6273d38123944399a9787e8325d33631.c6dc127f6dcb4400",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-6273d38123944399a9787e8325d33631-c6dc127f6dcb4400-01",
+    "cookie": "JSESWOFP=.iiscfe01; JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/swiped-events/swiped-events.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/tinymce/skins/ui/oxide/skin.min.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESWOFP=.iiscfe01; JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/tinymce/skins/ui/oxide/content.min.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESWOFP=.iiscfe01; JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/api/Diffusion/DetailOffre/362270", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "authorization": "Bearer undefined",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "request-id": "|6273d38123944399a9787e8325d33631.2fba55e50cec4a27",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "traceparent": "00-6273d38123944399a9787e8325d33631-2fba55e50cec4a27-01",
+    "cookie": "JSESWOFP=.iiscfe01; JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/dynamic/tacjs/tacjs.prod.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/tarteaucitron/css/tarteaucitron.css?v=20210422", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "if-modified-since": "Tue, 01 Aug 2023 13:55:45 GMT",
+    "if-none-match": "\"0x8DB929700BB5F03\"",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/tarteaucitron/lang/tarteaucitron.fr.js?v=20210422", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/polyfill/polyfill.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/fn/fn.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/tarteaucitron/tarteaucitron.services.js?v=20210422", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "if-modified-since": "Tue, 01 Aug 2023 13:55:45 GMT",
+    "if-none-match": "\"0x8DB929700BFC6D3\"",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/static/events-new-design/events-new-design.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "if-modified-since": "Tue, 01 Aug 2023 13:55:45 GMT",
+    "if-none-match": "\"0x8DB929700C8BD67\"",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://assets.adobedtm.com/be164e091036/47e61ea4bbf9/launch-63de06e52494.min.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.google-analytics.com/analytics.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.googletagmanager.com/gtag/js?id=UA-92595425-1", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://static.hotjar.com/c/hotjar-1837519.js?sv=hjid:1837519", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.googletagmanager.com/gtm.js?id=GTM-TK8Z6LX", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/dynamic/crc-new-design/crc-new-design.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/dynamic/message/message.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/dynamic/chatbot/chatbot.prod.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/content/dam/leforem/fr/javascript/dynamic/cobrowsing/cobrowsing.prod.js", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "script",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "JSESSEPP=.iiscfe02; JSESSGC=.lxwn1; affinity=\"c323bde040ce8e4f\"; ai_user=M2VQYQUB/m3zzqirW1qV3I|2023-08-28T16:15:57.213Z; tarteaucitron=!adobeanalytics=true!analytics=true!gtag=true!hotjar=true!googletagmanager=true!youtube=true; ADCNode=rs3|ZOzeJ; ai_sessionforemtelemetry=hH6ZeiPgshd7kMr2yrCtYY|1693244962208|1693244962208",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/fonts/fontawesome/fa-light-300.woff2", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/assets/forem-common-style/css/forem-common-style.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/fonts/fontawesome/fa-regular-400.woff2", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/assets/forem-common-style/css/forem-common-style.css",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("data:image/png;base64,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", {
+  "referrer": "",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://cobrowse.leforem.be/cobrowse/js/gcb.min.js", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://www.leforem.be/recherche-offres/assets/forem-common-style/images/Forem-favicon.png", {
+  "headers": {
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://www.leforem.be/recherche-offres/offre-detail/362270",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+}); ;
+fetch("https://westeurope-5.in.applicationinsights.azure.com//v2/track", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "content-type": "application/json",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "[{\"time\":\"2023-08-28T17:49:22.176Z\",\"iKey\":\"d5d7ae3a-f8b2-4311-a3cc-fdf085b4e768\",\"name\":\"Microsoft.ApplicationInsights.d5d7ae3af8b24311a3ccfdf085b4e768.RemoteDependency\",\"tags\":{\"ai.user.id\":\"M2VQYQUB/m3zzqirW1qV3I\",\"ai.session.id\":\"hH6ZeiPgshd7kMr2yrCtYY\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/recherche-offres/offre-detail/362270\",\"ai.operation.id\":\"6273d38123944399a9787e8325d33631\",\"ai.internal.sdkVersion\":\"javascript:2.8.9\",\"ai.cloud.role\":\"Woffres_Particuliers\"},\"data\":{\"baseType\":\"RemoteDependencyData\",\"baseData\":{\"id\":\"|6273d38123944399a9787e8325d33631.c6dc127f6dcb4400.\",\"ver\":2,\"name\":\"GET /recherche-offres/api/Data/getConfig\",\"resultCode\":\"200\",\"duration\":\"00:00:00.031\",\"success\":true,\"data\":\"GET /recherche-offres/api/Data/getConfig\",\"target\":\"www.leforem.be | cid-v1:126ac490-53d8-483f-9ad6-69842af93b43\",\"type\":\"Fetch\",\"properties\":{\"HttpMethod\":\"GET\",\"requestHeaders\":\"{\\\"cache-control\\\":\\\"no-cache\\\",\\\"content-type\\\":\\\"application/json\\\",\\\"pragma\\\":\\\"no-cache\\\",\\\"Request-Id\\\":\\\"|6273d38123944399a9787e8325d33631.c6dc127f6dcb4400\\\",\\\"traceparent\\\":\\\"00-6273d38123944399a9787e8325d33631-c6dc127f6dcb4400-01\\\"}\",\"responseHeaders\":\"{\\\"api-supported-versions\\\":\\\"1.0\\\",\\\"content-type\\\":\\\"application/json; charset=utf-8\\\",\\\"date\\\":\\\"Mon, 28 Aug 2023 17:49:23 GMT\\\",\\\"request-context\\\":\\\"appId=cid-v1:126ac490-53d8-483f-9ad6-69842af93b43\\\",\\\"server\\\":\\\"Microsoft-IIS/10.0\\\",\\\"transfer-encoding\\\":\\\"chunked\\\"}\"},\"measurements\":{}}}},{\"time\":\"2023-08-28T17:49:22.324Z\",\"iKey\":\"d5d7ae3a-f8b2-4311-a3cc-fdf085b4e768\",\"name\":\"Microsoft.ApplicationInsights.d5d7ae3af8b24311a3ccfdf085b4e768.Exception\",\"tags\":{\"ai.user.id\":\"M2VQYQUB/m3zzqirW1qV3I\",\"ai.session.id\":\"hH6ZeiPgshd7kMr2yrCtYY\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/recherche-offres/offre-detail/362270\",\"ai.operation.id\":\"6273d38123944399a9787e8325d33631\",\"ai.internal.sdkVersion\":\"javascript:2.8.9\",\"ai.cloud.role\":\"Woffres_Particuliers\"},\"data\":{\"baseType\":\"ExceptionData\",\"baseData\":{\"ver\":2,\"exceptions\":[{\"typeName\":\"String\",\"message\":\"ErrorEvent: ResizeObserver loop completed with undelivered notifications.\",\"hasFullStack\":false,\"stack\":\"ResizeObserver loop completed with undelivered notifications.\\n\",\"parsedStack\":[]}],\"severityLevel\":3,\"properties\":{\"errorSrc\":\"window.onerror@https://www.leforem.be/recherche-offres/offre-detail/362270:0:0\",\"url\":\"https://www.leforem.be/recherche-offres/offre-detail/362270\",\"lineNumber\":\"0\",\"columnNumber\":\"0\",\"message\":\"ErrorEvent: ResizeObserver loop completed with undelivered notifications.\",\"typeName\":\"String\"}}}},{\"time\":\"2023-08-28T17:49:22.325Z\",\"iKey\":\"d5d7ae3a-f8b2-4311-a3cc-fdf085b4e768\",\"name\":\"Microsoft.ApplicationInsights.d5d7ae3af8b24311a3ccfdf085b4e768.Exception\",\"tags\":{\"ai.user.id\":\"M2VQYQUB/m3zzqirW1qV3I\",\"ai.session.id\":\"hH6ZeiPgshd7kMr2yrCtYY\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/recherche-offres/offre-detail/362270\",\"ai.operation.id\":\"6273d38123944399a9787e8325d33631\",\"ai.internal.sdkVersion\":\"javascript:2.8.9\",\"ai.cloud.role\":\"Woffres_Particuliers\"},\"data\":{\"baseType\":\"ExceptionData\",\"baseData\":{\"ver\":2,\"exceptions\":[{\"typeName\":\"ErrorEvent\",\"message\":\"ErrorEvent: ResizeObserver loop completed with undelivered notifications.\",\"hasFullStack\":false,\"stack\":\"https://www.leforem.be/recherche-offres/offre-detail/362270\",\"parsedStack\":[]}],\"severityLevel\":3,\"properties\":{\"typeName\":\"ErrorEvent\"}}}},{\"time\":\"2023-08-28T17:49:22.320Z\",\"iKey\":\"d5d7ae3a-f8b2-4311-a3cc-fdf085b4e768\",\"name\":\"Microsoft.ApplicationInsights.d5d7ae3af8b24311a3ccfdf085b4e768.RemoteDependency\",\"tags\":{\"ai.user.id\":\"M2VQYQUB/m3zzqirW1qV3I\",\"ai.session.id\":\"hH6ZeiPgshd7kMr2yrCtYY\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/recherche-offres/offre-detail/362270\",\"ai.operation.id\":\"6273d38123944399a9787e8325d33631\",\"ai.internal.sdkVersion\":\"javascript:2.8.9\",\"ai.cloud.role\":\"Woffres_Particuliers\"},\"data\":{\"baseType\":\"RemoteDependencyData\",\"baseData\":{\"id\":\"|6273d38123944399a9787e8325d33631.2fba55e50cec4a27.\",\"ver\":2,\"name\":\"GET /recherche-offres/api/Diffusion/DetailOffre/362270\",\"resultCode\":\"200\",\"duration\":\"00:00:00.313\",\"success\":true,\"data\":\"GET /recherche-offres/api/Diffusion/DetailOffre/362270\",\"target\":\"www.leforem.be | cid-v1:126ac490-53d8-483f-9ad6-69842af93b43\",\"type\":\"Fetch\",\"properties\":{\"HttpMethod\":\"GET\",\"requestHeaders\":\"{\\\"cache-control\\\":\\\"no-cache\\\",\\\"content-type\\\":\\\"application/json\\\",\\\"pragma\\\":\\\"no-cache\\\",\\\"Request-Id\\\":\\\"|6273d38123944399a9787e8325d33631.2fba55e50cec4a27\\\",\\\"traceparent\\\":\\\"00-6273d38123944399a9787e8325d33631-2fba55e50cec4a27-01\\\"}\",\"responseHeaders\":\"{\\\"api-supported-versions\\\":\\\"1.0\\\",\\\"content-type\\\":\\\"application/json; charset=utf-8\\\",\\\"date\\\":\\\"Mon, 28 Aug 2023 17:49:23 GMT\\\",\\\"request-context\\\":\\\"appId=cid-v1:126ac490-53d8-483f-9ad6-69842af93b43\\\",\\\"server\\\":\\\"Microsoft-IIS/10.0\\\",\\\"transfer-encoding\\\":\\\"chunked\\\"}\"},\"measurements\":{}}}}]",
+  "method": "POST"
+}); ;
+fetch("https://westeurope-5.in.applicationinsights.azure.com//v2/track", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "cross-site",
+    "Referer": "https://www.leforem.be/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "OPTIONS"
+});
